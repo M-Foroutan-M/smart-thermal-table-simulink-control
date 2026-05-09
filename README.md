@@ -32,7 +32,7 @@ The complete Simulink architecture includes four main subsystems:
 
 The Simulink model is organised as a closed-loop control system. At each simulation step, the thermal plant updates the temperature field based on heater input, ambient heat loss, heat diffusion, and external disturbance. The sensing subsystem measures the temperature field, the analysis subsystem extracts zone-level information, and the controller adjusts the heater input accordingly.
 
-![Overall Simulink Architecture]([Full System.jpg](https://github.com/M-Foroutan-M/smart-thermal-table-simulink-control/blob/main/Full%20System.jpg))
+![Overall Simulink Architecture](Full_System.jpg)
 
 ## Thermal Plant Modelling
 
